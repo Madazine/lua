@@ -1,0 +1,585 @@
+gg.toast("哔哩哔哩:Emptiness233")
+gg.alert("⚡️作者qq2685233847⚡️")
+gg.alert("★★\n作者Emptiness★️")
+gg.alert("★★\nqq群:639182393⚡️")
+print("")
+i1 = 8
+i5 = 8
+mima = "666"
+v_value = gg.prompt({
+  "密码 666 欢迎加入simcity讨论，群聊号码：639182393 在群里有视频教程以及 持续更新lua｡･ﾟﾟ･(>д<;)･ﾟﾟ･｡"
+}, {
+  [1] = 0
+}, {
+  [1] = "number"
+})
+function mi()
+  print("欢迎使用")
+end
+function end_c()
+  print("密码错误")
+  os.exit()
+end
+if v_value[1] == mima then
+  mi()
+else
+  end_c()
+end
+
+function Main()
+  Emp = gg.multiChoice({
+   "国服/国际服都可以用",
+   "国际服使用",
+   "游戏修改",
+   "市长竞赛系统",
+   "退出",},nil,"~欢迎加入simcity讨论，群聊号码：639182393 在群里有视频教程以及 持续更新lua  除了建筑修改 其他的都不限区服限制  ｡･ﾟﾟ･(>д<;)･ﾟﾟ･｡")
+ if Emp[1] == true then guofuguoji() end
+ if Emp[2] == true then guoji() end
+ if Emp[3] == true then xiugai() end
+ if Emp[4] == true then shizhang() end
+ if Emp[5] == true then Exit() end
+ XGCK = -1
+end
+function guofuguoji()
+  SN = gg.multiChoice({
+    "仓库600［原型风力发电厂］",
+    "麦克斯庄园［原型火力发电厂］",
+    "终极市长雕像［原型初级工厂］",
+    "最高普通住宅楼［原型小型工厂］",
+    "金色史诗建筑［原型安静的公园］",
+    "银色史诗建筑［原型垃圾场］",
+    "铜色史诗建筑［原型文化部］",
+    "帝国大厦[原型合金欢树林]",
+    "maxis超人雕像［原型小合金欢树林］",
+    "惊悚公园［原型白杨林］",
+    "树怪［原型松林］",
+    "南瓜人雕像［原型足球场］",
+    "冬季森林［原型篮球场］",
+    "豪华海滨之家［原型滑板公园］",
+    "公主的高塔［原型露天剧场］",
+    "红色客运站［原型博彩雅间］",
+    "机器人王国［原型交通部］",
+    "骆马灌木［原型灯塔］",
+    "大猩猩栖息地［原型博彩总部］",
+    "红灯笼小路[原型娱乐总部]",
+    "海滨码头［原型巨型花园地精］",
+  }, nil, "建筑要放，仓库升级后就不能改")
+  if SN[1] == true then a() end
+  if SN[2] == true then b() end
+  if SN[3] == true then c() end
+  if SN[4] == true then d() end
+  if SN[5] == true then e() end
+  if SN[6] == true then f() end
+  if SN[7] == true then g() end
+  if SN[8] == true then h() end
+  if SN[9] == true then i() end
+  if SN[10] == true then j() end
+  if SN[11] == true then k() end
+  if SN[12] == true then l() end
+  if SN[13] == true then m() end
+  if SN[14] == true then n() end
+  if SN[15] == true then o() end
+  if SN[16] == true then p() end
+  if SN[17] == true then q() end
+  if SN[18] == true then r() end
+  if SN[19] == true then s() end
+  if SN[20] == true then t() end
+  XGCK = -1 
+end
+
+function guoji()
+menu1 = gg.multiChoice({
+'乌麦·巴哈旺花园［原型教育部］.',
+'国会公园［原型交通部］］',
+'圣詹姆斯公园［原型娱乐总部］',
+'名古屋花园［原型博彩总部］',
+'喜马拉雅花园［原型文化部］',
+'佩纳花园［原型风力发电厂］',
+'美泉宫公园［原型基本水塔］',
+'流动餐车［原型小型警察局］',
+'体育场［原型小型诊所］',
+'胜利奖杯［原型小型喷泉公园］.',
+'杯球场［原型小型消防局］.',
+'体育纪念品摊［原型小型工厂］',
+'户外运动场［原型白杨林］',
+'体育明星雕像［原型松林］',
+'马丘比丘［原型雕塑公园］',
+'金字塔［原型棒球场］',
+'simcity狮身人面［原型寺庙］',
+'印加神庙［原型樱花公园］',
+'纳斯卡线［原型绿水晶桥梁］',
+'模拟市民岛屿雕像［原型基本消防站］',
+},nil,'作者qq:2685233847，qq群:639182393   注意此脚本仅仅用于隐藏建筑，只适用于国际服！ 使用方法:建好相应的建筑之后运行脚本，选择你要的建筑搜索完毕之后，去丹尼尔的城市。又回到自己城市 建筑即可出现。')
+if menu1[1] == true then wumai() end
+if menu1[2] == true then guohui() end
+if menu1[3] == true then shengzhan() end
+if menu1[4] == true then minggu() end
+if menu1[5] == true then ximala() end
+if menu1[6] == true then peina() end
+if menu1[7] == true then meiquan() end
+if menu1[8] == true then liudong() end
+if menu1[9] == true then tiyu() end
+if menu1[10] == true then shengli() end
+if menu1[11] == true then beiqiu() end
+if menu1[12] == true then jinian() end
+if menu1[13] == true then huwai() end
+if menu1[14] == true then mingxing() end
+if menu1[15] == true then maqiu() end
+if menu1[16] == true then jinzi() end
+if menu1[17] == true then sim() end
+if menu1[18] == true then yinjia() end
+if menu1[19] == true then nashi() end
+if menu1[20] == true then daoyu() end
+XGCK=-1
+end
+
+function xiugai()
+ XG = gg.multiChoice ({
+ "世纪商城无限刷新",
+ "史诗建楼无限制时间",
+"返回主菜单", },nil, "如果你们有固定的修改可以私聊我的qq 2685233847")
+ if XG[1] == true then shuaxin() end
+ if XG[2] == true then xianzhi() end
+ if XG[3] == true then Main() end
+ XGCK=-1
+ end
+
+function shizhang()
+SZ = gg.multiChoice ({
+"1200水晶改成5000",
+"2000水晶改成70000",
+"1800水晶改成10000",
+"1600水晶改成50000",
+"800水晶改成60000",
+"1800水晶改成1000000［直接第一］",
+"返回主菜单",},nil, "选择任务时不要 直接开始任务 要不然你的水晶就改不成 这个改成多少数量大家可以自己选")
+if SZ[1] == true then shuijin1() end
+if SZ[2] == true then shuijin2() end
+if SZ[3] == true then shuijin3() end
+if SZ[4] == true then shuijin4() end
+if SZ[5] == true then shuijin5() end
+if SZ[6] == true then shuijin6() end
+if SZ[7] == true then Main() end
+XGCK=-1
+end
+
+function shuijin1()
+gg.clearResults()
+gg.searchNumber("1200;12600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("5000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+function shuijin2()
+gg.clearResults()
+gg.searchNumber("2000;28800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("70000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+function shuijin3()
+gg.clearResults()
+gg.searchNumber("1800;64800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("10000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+  function shuijin4()
+gg.clearResults()
+gg.searchNumber("1600;172800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1600", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("50000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+  function shuijin5()
+gg.clearResults()
+gg.searchNumber("800;58500", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("60000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+function shuijin6()
+gg.clearResults()
+gg.searchNumber("1800;64800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1800", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1000000", gg.TYPE_DWORD)
+  gg.toast("点击开始任务 完成任务即可获得水晶")
+end
+
+
+
+function shuaxin()
+gg.clearResults()
+gg.searchNumber("21600000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("21600000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast("完成！")
+end
+function xianzhi()
+gg.clearResults()
+gg.searchNumber("43200000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("43200000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.toast("完成")
+end
+
+
+ 
+
+
+
+
+
+function wumai()
+gg.searchNumber("153,804,537", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("153,804,537", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-1,344,538,987", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function guohui()
+gg.searchNumber("-1558709851", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-155870851", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-1379414401", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function shengzhan()
+gg.searchNumber("-1460623397;65536;65538;20;60000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1460623397", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-1713758072", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function minggu()
+gg.searchNumber("65536;65538;70000;-1670955522;25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1670955522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1457789383", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function ximala()
+gg.searchNumber("65536;65539;30;80000;-1459586527", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1459586527", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-1051718906", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function peina()
+gg.searchNumber("751144117", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("751144117", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-154536615", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function meiquan()
+gg.searchNumber("139346164;65537;6000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("139346164", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1500089335", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function liudong()
+  gg.clearResults()
+gg.searchNumber("-150077002;5100;65537", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-150077002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("334535581", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+
+function tiyu()
+gg.clearResults()
+gg.searchNumber("-66177429;6200;65537", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-66177429", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("668029703", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function shengli()
+gg.searchNumber("-1672104106;4000;65537", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1672104106", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1761412862", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function beiqiu()
+gg.searchNumber("65537;3100;5;583140736", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("583140736", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("2005587850", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function jinian()
+gg.searchNumber("612373322", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("612373322", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-1935167258", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function huwai()
+gg.clearResults()
+gg.searchNumber("-2101937543", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-2101937543", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, 
+  -1)
+  gg.getResults(100)
+  gg.editAll("1312201562", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function mingxing()
+gg.clearResults()
+gg.searchNumber("-2104424531", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-2104424531", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("2057715442", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function maqiu()
+gg.clearResults()
+gg.searchNumber("619296955", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("619296955", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1792601194", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function jinzi()
+gg.clearResults()
+gg.searchNumber("578424766", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("578424766", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("376074091", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function sim()
+gg.clearResults()
+gg.searchNumber("628204727", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("628204727", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1181444434", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function yinjia()
+gg.clearResults()
+gg.searchNumber("673250798", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("673250798", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-155446785", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function nashi()
+gg.clearResults()
+gg.searchNumber("428329242", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("428329242", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1552131900", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+function daoyu()
+gg.clearResults()
+gg.searchNumber("388741896", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("388741896", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("489029428", gg.TYPE_DWORD)
+  gg.toast("代码替换成功")
+end
+
+function a()
+  gg.clearResults()
+  gg.searchNumber("3；8；27；65536；2621440", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2621440", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("39321600", gg.TYPE_DWORD)
+  gg.toast("去别的城市回来就有了")
+end
+function b()
+  gg.clearResults()
+  gg.searchNumber("-1297331478", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1297331478", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("925375395", gg.TYPE_DWORD)
+  gg.toast("去别的城市回来就有了")
+end
+function c()
+  gg.clearResults()
+  gg.searchNumber("-1199642511", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1199642511", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("2040088750", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function d()
+gg.clearResults()
+  gg.searchNumber("612373322", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("612373322", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1522778650", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function e()
+gg.clearResults()
+  gg.searchNumber("-958560911", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-958560911", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1999290445", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function f()
+gg.clearResults()
+  gg.searchNumber("-935683329", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-935683329", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1999290446", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function g()
+gg.clearResults()
+  gg.searchNumber("-1459586527", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1459586527", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1999290447", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function h()
+gg.clearResults()
+  gg.searchNumber("-663978220", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-663978220", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1163495494", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function i()
+gg.clearResults()
+  gg.searchNumber("-2028665844", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-2028665844", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2089966647", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function j()
+gg.clearResults()
+  gg.searchNumber("-2101937543", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-2101937543", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2121152741", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function k()
+gg.clearResults()
+  gg.searchNumber("-2104424531", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-2104424531", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2121152740", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function l()
+gg.clearResults()
+  gg.searchNumber("-1900447707", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1900447707", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2121152739", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function m()
+gg.clearResults()
+  gg.searchNumber("-1791367421", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1791367421", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2104311224", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function n()
+gg.clearResults()
+  gg.searchNumber("-1791367420", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1791367420", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-2038081014", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function o()
+gg.clearResults()
+  gg.searchNumber("-1791367419", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1791367419", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1987429224", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function p()
+gg.clearResults()
+  gg.searchNumber("-1917164795", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1917164795", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1982142573", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function q()
+gg.clearResults()
+  gg.searchNumber("-1975436265", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1975436265", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1945040199", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function r()
+gg.clearResults()
+  gg.searchNumber("-1670955522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1670955522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1924457380", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function s()
+gg.clearResults()
+  gg.searchNumber("-1460623397", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1460623397", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1887788971", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function t()
+gg.clearResults()
+  gg.searchNumber("-1921690608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1921690608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-1869089609", gg.TYPE_DWORD)
+  gg.toast("去一趟别的城市回来就有了")
+end
+function Exit()
+   print("蟹蟹使用我们的脚本  欢迎加入simcity讨论，群聊号码：639182393 在群里有视频教程以及 持续更新lua｡･ﾟﾟ･(>д<;)･ﾟﾟ･｡！")
+  os.exit()
+end
+cs = "23333"
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end
